@@ -1,0 +1,18 @@
+<md-content layout-padding name="bumpForm">
+    <form ng-submit="bumpCtrl.bumpBuild()">
+        <div layout="row">
+            <md-input-container flex>
+                <label>Enter Build Identifier</label>
+                <input ng-model="bumpCtrl.buildId" name="buildId" type="text" required flex>
+            </md-input-container>
+        </div>
+        <div layout="row">
+            <span flex>
+                <span ng-if="bumpCtrl.build">Application Build Number: {{ bumpCtrl.build.buildNumber}}</span>
+            </span>
+            <md-button class="md-primary" type="submit">
+                Bump
+            </md-button>
+        </div>
+    </form>
+</md-content>   

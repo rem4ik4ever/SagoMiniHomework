@@ -15,7 +15,7 @@ router.get('/read/:bundleId', (req, res, next) => {
     AppBuildService
         .read(req.params.bundleId)
         .then(data => res.json(data))
-        .catch(err => res.json(err));
+        .catch(err => res.status(err.code).send(err.message));
 });
 
 /**
@@ -32,7 +32,7 @@ router.post('/set/:bundleId/:newBuildNumber', async(req, res) => {
     AppBuildService
         .set(req.params.bundleId, req.params.newBuildNumber, req.body.params)
         .then(data => res.json(data))
-        .catch(err => res.json(err));
+        .catch(err => res.status(err.code).send(err.message));
 });
 
 /**
@@ -49,7 +49,7 @@ router.post('/bump/:bundleId', async(req, res) => {
     AppBuildService
         .bump(req.params.bundleId)
         .then(data => res.json(data))
-        .catch(err => res.json(err));
+        .catch(err => res.status(err.code).send(err.message));
 });
 
 module.exports = router;
