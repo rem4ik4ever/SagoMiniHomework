@@ -1,0 +1,29 @@
+{
+  "name": "sagominihomework",
+  "version": "1.0.0",
+  "description": "SagoMini Homework project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rem4ik4ever/SagoMiniHomework.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "AngularJS",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "Rem Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rem4ik4ever/SagoMiniHomework/issues"
+  },
+  "homepage": "https://github.com/rem4ik4ever/SagoMiniHomework#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.18"
+  }
+}
