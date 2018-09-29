@@ -3,8 +3,8 @@ This is a Homework Project for SagoMini. Server side NodeJS, Express JS. Client 
 
 
 ## Prerequisite
-MongoDB https://docs.mongodb.com/manual/administration/install-community/ 
-NodeJs 8.0.0 + version https://nodejs.org/en/download/
+[MongoDB](https://docs.mongodb.com/manual/administration/install-community/)
+[NodeJs 8.0.0 + version](https://nodejs.org/en/download/)
 
 
 ## Instructions
@@ -17,3 +17,5 @@ NodeJs 8.0.0 + version https://nodejs.org/en/download/
 
 
 
+Copyright (C) 2017 Rem Kim
+[Rem Kim](https://github.com/rem4ik4ever)
