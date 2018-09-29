@@ -16,6 +16,4 @@ This is a Homework Project for SagoMini. Server side NodeJS, Express JS. Client 
 - Navigarte to `localhost:3000` in browser
 
 
-
-Copyright (C) 2017 Rem Kim
 [Rem Kim](https://github.com/rem4ik4ever)
