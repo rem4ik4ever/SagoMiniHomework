@@ -12,7 +12,7 @@ This is a Homework Project for SagoMini. Server side NodeJS, Express JS. Client 
 - Git clone project 
 - `cd` into project folder
 - Run `npm install` to install project dependencies 
-- Run server `npm run start`
+- Run server `npm run pm2`
 - Navigarte to `localhost:3000` in browser
 
 
